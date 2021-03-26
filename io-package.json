@@ -1,0 +1,76 @@
+{
+    "common": {
+        "name": "lora2fst",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "LoRa to FST",
+        "titleLang": {
+            "en": "LoRa to FST",
+            "de": "LoRa zu FST",
+            "ru": "LoRa в FST",
+            "pt": "LoRa para FST",
+            "nl": "LoRa naar FST",
+            "fr": "LoRa à FST",
+            "it": "LoRa a FST",
+            "es": "LoRa a FST",
+            "pl": "LoRa do FST",
+            "zh-cn": "LoRa转FST"
+        },
+        "desc": {
+            "en": "Converts raw loara data via MQTT from RAK gatways to FST standard MQTT data",
+            "de": "Konvertiert Loara-Rohdaten über MQTT von RAK-Gatways in FST-Standard-MQTT-Daten",
+            "ru": "Преобразует необработанные данные loara через MQTT из шлюзов RAK в стандартные данные MQTT FST",
+            "pt": "Converte dados loara brutos via MQTT de gatways RAK para dados MQTT padrão FST",
+            "nl": "Converteert onbewerkte loara-gegevens via MQTT van RAK-gatways naar FST-standaard MQTT-gegevens",
+            "fr": "Convertit les données de loara brutes via MQTT des passerelles RAK en données MQTT standard FST",
+            "it": "Converte i dati grezzi loara tramite MQTT dai gatway RAK ai dati MQTT standard FST",
+            "es": "Convierte datos loara sin procesar a través de MQTT de RAK gatways a datos MQTT estándar de FST",
+            "pl": "Konwertuje surowe dane loara za pośrednictwem MQTT z RAK gatways na standardowe dane MQTT FST",
+            "zh-cn": "通过MQTT将原始Loara数据从RAK通道转换为FST标准MQTT数据"
+        },
+        "authors": [
+            "Lars Höyer <lars.hoeyer@fst.com>"
+        ],
+        "keywords": [
+            "fst",
+            "lora",
+            "converter"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "lora2fst.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/larshoeyer/ioBroker.lora2fst/master/admin/lora2fst.png",
+        "readme": "https://github.com/larshoeyer/ioBroker.lora2fst/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "communication",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
